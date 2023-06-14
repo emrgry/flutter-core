@@ -1,10 +1,9 @@
-import 'package:cloud_firestore/cloud_firestore.dart';
+// import 'package:cloud_firestore/cloud_firestore.dart';
 
 enum FirebaseCollections {
   news,
-  a,
   test;
 
-  CollectionReference get reference =>
-      FirebaseFirestore.instance.collection(name);
+  // CollectionReference get reference =>
+  //     FirebaseFirestore.instance.collection(name);
 }
